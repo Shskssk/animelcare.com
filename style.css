@@ -1,0 +1,302 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 180px;
+    width: 300px;
+    align-items: center;
+    margin-left: 500px;
+}
+
+
+
+    .header {
+        height: 100vh;
+        position: relative;
+        background-image: url(image/hero.jpg);
+        background-size: cover;
+        color: #fff; 
+    
+}  
+
+
+
+.heading-right {
+    padding-left: 950px;
+    padding-right: 100px;
+
+
+}
+
+
+.btnn {
+
+    padding-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*main nav */
+.main-nav {
+    align-items: center;
+    justify-content: center;
+   display: flex;
+   padding-bottom: 50px;
+
+    
+}
+
+.Main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 30px;
+  
+}
+
+.main-nav-link {
+    border: 2px solid #333;
+    border-radius: 9px;
+    box-shadow: rgb(241, 236, 236)  5px 5px 5px 5px ;
+}
+
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: orangered;
+}
+
+.main-nav-link nav-cta:link,
+.main-nav-link nav-cta:visited {
+    background-color: hsl(0, 17%, 68%);
+    color: #ffff;
+    padding: 12px 24px;
+    border-radius: 9px;
+}
+
+.main-nav-link nav-cta:active,
+.main-nav-link nav-cta:hover {
+    background-color: #fdf2e9;
+}
+
+
+/*hero section*/
+
+.heading-primary {
+    font-size: 65px;
+    font-weight: 650;
+    line-height: 1.05;
+    color: #fff;
+    letter-spacing: -0.5px;
+    margin-bottom: 32px;
+    margin-right: 700px;
+    padding-left: 100px;
+}
+
+.hero-description {
+    font-size: 20px;
+    line-height: 1.05;
+    margin-bottom: 48px;
+    padding-top: 80px;
+    padding-left: 100px;
+    margin-right: 650px;
+}
+
+
+/*button*/
+
+.btn:link, .btn:visited {
+    background-color: hsl(0, 98%, 52%);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(5, 0, 0);
+    padding: 16px 32px;
+    border-radius: 9px;
+    box-shadow: rgb(253, 250, 250)  5px 5px 5px 5px ;
+    transition: bacground-color 0.3s;
+    margin-left: 100px;
+
+
+}
+
+.btn--full:link, .btn--full:visited {
+    background-color: hsl(0, 86%, 49%);
+   
+    color: rgb(12, 1, 1);
+    margin: 16px;
+}
+
+.btn--full:active, .btn--full:hover {
+    color: rgb(248, 239, 240);
+}
+
+.btn--outline:link, .btn--outline:visited {
+    background-color: hsl(0, 86%, 48%);
+   
+    color: rgb(14, 1, 1);
+}
+
+.btn--outline:active, .btn--outline:hover {
+    color: rgb(240, 222, 222);
+}
+
+
+
+.help {
+    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+span {
+    color: red;
+}
+.paragraph {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.div3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 22px;
+    margin-bottom: 100px;
+}
+
+.step2{
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #fff;
+  
+}
+
+.photo {
+    height: 350px;
+    width: 350px;
+}
+
+.find {
+    line-height: 24px;
+    font-weight: 34px;
+    padding-bottom: 22px;
+    padding-top: 100px;
+    color: #d6d2ca;
+}
+
+.find2 {
+    margin-bottom: 22px;
+}
+
+.find3 {
+    padding-top: 22px;
+}
+
+.find4 {
+    color: #d6d2ca;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.find5 {
+    padding-bottom: 22px;
+}
+
+
+
+.step3 {
+         height: 240vh;
+        position: relative;
+        background-image: url(image/hero2.jpg);
+        background-size: cover;
+        color: white;
+        text-align: center;
+        margin-bottom: 50px;
+    
+        
+}
+
+.photo2 {
+    padding-top: 100px;
+    width: 650px;
+    height: 400px; 
+  
+}
+
+.last-side {
+    padding-left: 50px;
+    line-height: 22px;
+    
+}
+
+.finish {
+ background-color: black;
+ text-align: center;
+ color: rgb(241, 60, 60);
+ padding-top: 22px;
+ 
+}
+
+.complete {
+    padding-bottom: 22px;
+}
+
+
+.fa {
+    padding: 6px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 22px;
+    border: 1px solid#fff;
+    
+  }
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  
+ }
+
+ #btn {
+     font-size: 16px;
+     border: 2px solid rgb(248, 246, 246);
+     font-family: sans-serif;
+     background-color: rgb(15, 1, 1);
+     color: red;
+     font-weight: bold; 
+     border-radius: 9px;
+     margin-bottom: 18px;
+ }
+    
